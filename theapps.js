@@ -31,7 +31,7 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?&units=metric&q=
    else if(data.weather[0].main==="Mist"){
        weathericon.src="images/mist.png";
    }
-   document.querySelector(".weather").style.display= block;
+   document.querySelector(".weather").style.display= "block";
 }
 catch(error){
    document.querySelector(".city").innerHTML="City not the found";

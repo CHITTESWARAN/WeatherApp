@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
-        <title>Weather app</title>
-        <link rel="stylesheet" href="theapp.css">
-        <script src="theapps.js"></script>
-
-
-    </head>
-    <body>
-        <div class="card">
-            <div class="search">
-                <input type="text" placeholder="Enter the city name" spellcheck="false">
-                 <button onclick="search()"><img src="images/search.png"></button>
-            </div>
-            <div class="weather"><img src="images/rain.png" class="weathericon">
-         
-               <h1 class="temp">22 °C </h1>
-               <h2 class="city">NewYork</h2>
-               <div class="details">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="theapp.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city name" spellcheck="false">
+            <button onclick="search()"><img src="images/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weathericon">
+            <h1 class="temp">22 °C</h1>
+            <h2 class="city">NewYork</h2>
+            <div class="details">
                 <br>
-                 <div class="col"><img src="images/humidity.png" alt="humidity">
-                 <div>
-                    <p class="humidity">50%</p>
-                    <p>Humidity</p>
-
-                 </div>
-                </div>
-                 <div class="col2"><img src="images/wind.png" alt="humidity">
+                <div class="col"><img src="images/humidity.png" alt="humidity">
                     <div>
-                       <p class="Wind">15 km/hr</p>
-                       <p>Wind speed</p>
-   
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
                     </div>
                 </div>
-               
+                <div class="col2"><img src="images/wind.png" alt="humidity">
+                    <div>
+                        <p class="Wind">15 km/hr</p>
+                        <p>Wind speed</p>
+                    </div>
                 </div>
+            </div>
         </div>
-       
-
-    </body>
+    </div>
+    <script src="theapps.js"></script>
+</body>
 </html>
